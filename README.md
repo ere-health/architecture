@@ -15,6 +15,18 @@ Mission: Develop an open source solution that is commercially supported together
  3. It should be compatible with all systems that can print a [Muster 16 Formular](https://www.kbv.de/html/27760.php)
  4. It should be done at 2021-07-01
 
+# Frontend
+
+![](img/bce-design-frontend.png)
+
+The diagram above shows how to distribute the different components to [BElement](https://github.com/AdamBien/bce.design/blob/main/app/src/BElement.js).
+
+ 1. Use the lean framework [BCE Design from Adam Bien](https://github.com/AdamBien/bce.design)
+ 1.1. [lit-html](https://lit-html.polymer-project.org)
+ 1.2. [redux toolkit](https://redux-toolkit.js.org)
+ 1.3. [vaadin router](https://vaadin.com/router) (suggestion / optional)
+ 1.4. [rollup](https://rollupjs.org/) (for updates / optional)
+
 ## Links:
 
  * [E-Rezept API-Dokumentation](https://github.com/gematik/api-erp)
