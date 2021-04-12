@@ -15,6 +15,12 @@ Mission: Develop an open source solution that is commercially supported together
  3. It should be compatible with all systems that can print a [Muster 16 Formular](https://www.kbv.de/html/27760.php)
  4. It should be done at 2021-07-01
 
+# Backend
+
+![](img/ere-health-jar.png)
+
+The diagram above shows the backend application which is a single quarkus jar communicating via a WebSocket with the frontend and via the SOAP interface with the connector (The IdP is missing on the picture)
+
 # Frontend
 
 ![](img/bce-design-frontend.png)
