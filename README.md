@@ -21,6 +21,14 @@ Mission: Develop an open source solution that is commercially supported together
 
 The diagram above shows the backend application which is a single quarkus jar communicating via a WebSocket with the frontend and via the SOAP interface with the connector (The IdP is missing on the picture)
 
+## Backend - Document Service
+
+![](img/document-service.png)
+
+Above the backend architecture is shown. This will in the end create the following document:
+
+![](img/e-rezept-pdf.png)
+
 # Frontend
 
 ![](img/bce-design-frontend.png)
