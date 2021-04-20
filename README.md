@@ -46,7 +46,16 @@ The diagram above shows how to distribute the different components to [BElement]
 Here is a german YouTube video that shows how this works: 
 [![](img/youtube-video.png)](https://www.youtube.com/watch?v=hZv7yRhEbSU )
 
-## Links:
+
+# Deployment
+
+![](img/deployment.png)
+
+The diagram above shows the deployment options. In the first generation we are planning to deploy the ere.health software as normal installable service on the doctors personal computer.
+
+The second generation is fully hostable in a specially secured data center with a site-2-site VPN connection. This makes is possible to also sign prescriptions from anywhere in the world as long as the card reader is connected somewhere to the internet and the Komforsignatur is enabled.
+
+# Links:
 
  * [E-Rezept API-Dokumentation](https://github.com/gematik/api-erp)
  * [Implementierungs­­leitfaden Primär­­systeme – E-Rezept](https://fachportal.gematik.de/fileadmin/Fachportal/Downloadcenter/Implementierungsleitfaeden/gemILF_PS_eRp_V1.2.0.pdf)
