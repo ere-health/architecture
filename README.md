@@ -65,7 +65,7 @@ The image above shows the implementation details of the SVG extractor. It takes 
 
 ![](img/Extractor-Debug-Rectangles.png)
 
-The above image shows a generate debug pdf to see what text is extracted.
+The above image shows a generated debug pdf to see what text is extracted.
 
 ## Inkscape view
 
