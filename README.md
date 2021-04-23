@@ -11,7 +11,7 @@ Mission: Develop an open source solution that is commercially supported together
  1. The ere.health software should have two parts:  
    1.1. a virtual printer based on the IPP procotol [RFC 8010](https://tools.ietf.org/html/rfc8010) and [RFC 8011](https://tools.ietf.org/html/rfc8011)  
    1.2. a browser application to review the E-Rezept and sign them in a batch run containing 1 and up to 100 E-Rezepts
- 2. It should requires as little installation on the client PCs as possible at most a browser application and some configuration
+ 2. It should require as little installation on the client PCs as possible at most a browser application and some configuration
  3. It should be compatible with all systems that can print a [Muster 16 Formular](https://www.kbv.de/html/27760.php)
  4. It should be done at 2021-07-01
 
