@@ -55,6 +55,25 @@ The diagram above shows the deployment options. In the first generation we are p
 
 The second generation is fully hostable in a specially secured data center with a site-2-site VPN connection. This makes is possible to also sign prescriptions from anywhere in the world as long as the card reader is connected somewhere to the internet and the Komforsignatur is enabled.
 
+# SVG Extractor
+
+![](img/svg-extractor.png)
+
+The image above shows the implementation details of the SVG extractor. It takes a SVG file and extracts all the text that is contained by a rectangle on the fields layer into a java map.
+
+## Debug view
+
+![](img/Extractor-Debug-Rectangles.png)
+
+The above image shows a generate debug pdf to see what text is extracted.
+
+## Inkscape view
+
+![](img/Inkscape-Templates.png)
+
+The above image shows how the template can be modified in inkscape.
+
+
 # Links:
 
  * [E-Rezept API-Dokumentation](https://github.com/gematik/api-erp)
