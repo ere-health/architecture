@@ -47,6 +47,10 @@ The diagram above shows how to distribute the different components to [BElement]
    1.3. [vaadin router](https://vaadin.com/router) (suggestion / optional)  
    1.4. [rollup](https://rollupjs.org/) (for updates / optional)  
 
+![](img/frontend.png)
+
+The image above shows a screenshot of the frontend.
+
 # Video
 
 Here is a german YouTube video that shows how this works: 
