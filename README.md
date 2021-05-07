@@ -35,6 +35,13 @@ Above the backend architecture is shown. This will in the end create the followi
 
 The image above shows how the Gematik E-Rezept app scans a data matrix code produced by the ere.health document service.
 
+## E-Rezept Workflow
+
+![](img/e-rezept-workflow.png)
+
+The image above shows hwo the E-Rezept service internally works.
+
+
 # Frontend
 
 ![](img/bce-design-frontend.png)
