@@ -25,7 +25,7 @@ The diagram above shows the backend application which is a single quarkus jar co
 
 ![](img/document-service.png)
 
-Above the backend architecture is shown. This will in the end create the following document:
+Above the document service is shown. This will in the end generate the following pdf document that includes the prescription as an attachement:
 
 ![](img/e-rezept-pdf.png)
 
@@ -39,7 +39,7 @@ The image above shows how the Gematik E-Rezept app scans a data matrix code prod
 
 ![](img/e-rezept-workflow.png)
 
-The image above shows hwo the E-Rezept service internally works.
+The image above shows how the E-Rezept service internally works.
 
 
 # Frontend
@@ -70,7 +70,7 @@ Here is a german YouTube video that shows how this works:
 
 The diagram above shows the deployment options. In the first generation we are planning to deploy the ere.health software as normal installable service on the doctors personal computer.
 
-The second generation is fully hostable in a specially secured data center with a site-2-site VPN connection. This makes is possible to also sign prescriptions from anywhere in the world as long as the card reader is connected somewhere to the internet and the Komforsignatur is enabled.
+The second generation is fully hostable in a specially secured data center with a site-2-site VPN connection. This makes it possible to also sign prescriptions from anywhere in the world as long as the card reader is connected somewhere to the internet and the Komforsignatur is enabled.
 
 # SVG Extractor
 
