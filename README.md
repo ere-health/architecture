@@ -41,6 +41,15 @@ The image above shows how the Gematik E-Rezept app scans a data matrix code prod
 
 The image above shows how the E-Rezept service internally works.
 
+## VAU Channel
+
+![](img/vau-channel.png)
+
+The image above shows how the ere.health system implements the vau channel based on:
+
+ * https://github.com/gematik/ref-ePA-vauchannel
+ * https://github.com/resteasy/Resteasy/tree/main/resteasy-client/src/main/java/org/jboss/resteasy/client/jaxrs/engines
+
 
 # Frontend
 

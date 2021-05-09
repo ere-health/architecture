@@ -1,6 +1,86 @@
 <mxfile>
+    <diagram id="Flm4f7_Dg5iQqC0A1rDv" name="vau-channel">
+        <mxGraphModel dx="1926" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-0"/>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-1" parent="r99mjpeCmr4AOe0JfNgH-0"/>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-2" value="" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="r99mjpeCmr4AOe0JfNgH-1">
+                    <mxGeometry x="-30" y="400" width="500" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-3" value="Client&#10;(RestEasy)" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="r99mjpeCmr4AOe0JfNgH-1">
+                    <mxGeometry x="190" y="450" width="100" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-4" value="" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="r99mjpeCmr4AOe0JfNgH-1">
+                    <mxGeometry x="660" y="385" width="260" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-5" value="VAUEngine" style="shape=agent;offsetSize=8;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="r99mjpeCmr4AOe0JfNgH-1">
+                    <mxGeometry x="360" y="510" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-6" value="" style="shape=useedge;endArrow=none;useSignPosition=up;useSignDirection=none;" edge="1" parent="r99mjpeCmr4AOe0JfNgH-1" source="r99mjpeCmr4AOe0JfNgH-3" target="r99mjpeCmr4AOe0JfNgH-5">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="290" y="350" as="sourcePoint"/>
+                        <mxPoint x="450" y="350" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="360" y="540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-7" value="Engine Examples:https://github.com/resteasy/Resteasy/tree/main/resteasy-client/src/main/java/org/jboss/resteasy/client/jaxrs/engines" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="r99mjpeCmr4AOe0JfNgH-1">
+                    <mxGeometry x="-10" y="300" width="840" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-8" value="ere.health" style="shape=agent;offsetSize=8;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="r99mjpeCmr4AOe0JfNgH-1">
+                    <mxGeometry y="800" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-9" value="VAUProtocol" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="r99mjpeCmr4AOe0JfNgH-1">
+                    <mxGeometry x="360" y="460" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-10" value="VAUSession" style="rounded=1;whiteSpace=wrap;html=1;arcSize=60;strokeWidth=2;" vertex="1" parent="r99mjpeCmr4AOe0JfNgH-1">
+                    <mxGeometry x="365" y="420" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-11" value="" style="shape=useedge;vertical=true;endArrow=none;useSignPosition=left;useSignDirection=none;" edge="1" parent="r99mjpeCmr4AOe0JfNgH-1">
+                    <mxGeometry height="160" relative="1" as="geometry">
+                        <mxPoint x="410" y="510" as="sourcePoint"/>
+                        <mxPoint x="410" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-12" value="" style="shape=updateedge;endArrow=none;vertical=true;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="r99mjpeCmr4AOe0JfNgH-1" source="r99mjpeCmr4AOe0JfNgH-10" target="r99mjpeCmr4AOe0JfNgH-9">
+                    <mxGeometry width="30" height="80" relative="1" as="geometry">
+                        <mxPoint x="335" y="450" as="sourcePoint"/>
+                        <mxPoint x="335" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-13" value="ERezeptWorkflowService" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="r99mjpeCmr4AOe0JfNgH-1">
+                    <mxGeometry x="-10" y="510" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-14" value="" style="shape=useedge;endArrow=none;useSignPosition=up;useSignDirection=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="r99mjpeCmr4AOe0JfNgH-1" source="r99mjpeCmr4AOe0JfNgH-13">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="160" y="540" as="sourcePoint"/>
+                        <mxPoint x="190" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-15" value="" style="shape=useedge;endArrow=none;useSignPosition=up;useSignDirection=none;" edge="1" parent="r99mjpeCmr4AOe0JfNgH-1" source="r99mjpeCmr4AOe0JfNgH-5" target="r99mjpeCmr4AOe0JfNgH-16">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="500" y="540" as="sourcePoint"/>
+                        <mxPoint x="660" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-16" value="Gateway" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="r99mjpeCmr4AOe0JfNgH-1">
+                    <mxGeometry x="670" y="510" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-17" value="E-Rezept&#10;Fachdienst" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="r99mjpeCmr4AOe0JfNgH-1">
+                    <mxGeometry x="810" y="510" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="r99mjpeCmr4AOe0JfNgH-18" value="" style="shape=useedge;endArrow=none;useSignPosition=up;useSignDirection=east;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="r99mjpeCmr4AOe0JfNgH-1" source="r99mjpeCmr4AOe0JfNgH-16" target="r99mjpeCmr4AOe0JfNgH-17">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="770" y="510" as="sourcePoint"/>
+                        <mxPoint x="930" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
     <diagram id="ddfBJnQ1e1qqCNq7Vdhl" name="e-rezept-workflow">
-        <mxGraphModel dx="422" dy="1448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2152" dy="1448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="GjZFOYOXoIjYT3Brqjyf-0"/>
                 <mxCell id="GjZFOYOXoIjYT3Brqjyf-1" parent="GjZFOYOXoIjYT3Brqjyf-0"/>
