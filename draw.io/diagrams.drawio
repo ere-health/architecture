@@ -1,6 +1,6 @@
 <mxfile>
     <diagram id="ddfBJnQ1e1qqCNq7Vdhl" name="e-rezept-workflow">
-        <mxGraphModel dx="1936" dy="1448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="422" dy="1448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="GjZFOYOXoIjYT3Brqjyf-0"/>
                 <mxCell id="GjZFOYOXoIjYT3Brqjyf-1" parent="GjZFOYOXoIjYT3Brqjyf-0"/>
@@ -16,21 +16,13 @@
                 <mxCell id="GjZFOYOXoIjYT3Brqjyf-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GjZFOYOXoIjYT3Brqjyf-1" source="GjZFOYOXoIjYT3Brqjyf-6" target="GjZFOYOXoIjYT3Brqjyf-31">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="GjZFOYOXoIjYT3Brqjyf-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GjZFOYOXoIjYT3Brqjyf-1" source="GjZFOYOXoIjYT3Brqjyf-6" target="GjZFOYOXoIjYT3Brqjyf-9">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="GjZFOYOXoIjYT3Brqjyf-6" value="eRezeptBundleToGematikTask" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="GjZFOYOXoIjYT3Brqjyf-1">
+                <mxCell id="GjZFOYOXoIjYT3Brqjyf-6" value="createERezeptOnPresciptionServer" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="GjZFOYOXoIjYT3Brqjyf-1">
                     <mxGeometry x="310" y="630" width="190" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="GjZFOYOXoIjYT3Brqjyf-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GjZFOYOXoIjYT3Brqjyf-1" source="GjZFOYOXoIjYT3Brqjyf-9" target="GjZFOYOXoIjYT3Brqjyf-14">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="405" y="771"/>
-                            <mxPoint x="405" y="771"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="GjZFOYOXoIjYT3Brqjyf-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GjZFOYOXoIjYT3Brqjyf-1" source="GjZFOYOXoIjYT3Brqjyf-9" target="GjZFOYOXoIjYT3Brqjyf-6">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="GjZFOYOXoIjYT3Brqjyf-9" value="GematikTask" style="rounded=1;whiteSpace=wrap;html=1;arcSize=60;strokeWidth=2;" vertex="1" parent="GjZFOYOXoIjYT3Brqjyf-1">
+                <mxCell id="GjZFOYOXoIjYT3Brqjyf-9" value="Task" style="rounded=1;whiteSpace=wrap;html=1;arcSize=60;strokeWidth=2;" vertex="1" parent="GjZFOYOXoIjYT3Brqjyf-1">
                     <mxGeometry x="360" y="709.25" width="90" height="41.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="GjZFOYOXoIjYT3Brqjyf-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GjZFOYOXoIjYT3Brqjyf-1" source="GjZFOYOXoIjYT3Brqjyf-11" target="GjZFOYOXoIjYT3Brqjyf-6">
@@ -39,7 +31,15 @@
                 <mxCell id="GjZFOYOXoIjYT3Brqjyf-11" value="KBV&lt;br&gt;E-Rezept&lt;br&gt;Bundle" style="rounded=1;whiteSpace=wrap;html=1;arcSize=60;strokeWidth=2;" vertex="1" parent="GjZFOYOXoIjYT3Brqjyf-1">
                     <mxGeometry x="360" y="540" width="90" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="GjZFOYOXoIjYT3Brqjyf-14" value="TaskERezeptCreator" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="GjZFOYOXoIjYT3Brqjyf-1">
+                <mxCell id="GjZFOYOXoIjYT3Brqjyf-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="GjZFOYOXoIjYT3Brqjyf-1" source="GjZFOYOXoIjYT3Brqjyf-14" target="GjZFOYOXoIjYT3Brqjyf-9">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="405" y="770"/>
+                            <mxPoint x="405" y="770"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="GjZFOYOXoIjYT3Brqjyf-14" value="createERezeptTask" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="GjZFOYOXoIjYT3Brqjyf-1">
                     <mxGeometry x="320" y="790" width="220" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="GjZFOYOXoIjYT3Brqjyf-18" value="https://prescriptionserver.telematik/" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="GjZFOYOXoIjYT3Brqjyf-1">
@@ -96,7 +96,7 @@
                 <mxCell id="GjZFOYOXoIjYT3Brqjyf-42" value="&lt;pre style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 0px ; overflow-wrap: normal ; padding: 16px ; overflow: auto ; line-height: 1.45 ; border-radius: 6px ; word-break: normal ; color: rgb(36 , 41 , 46)&quot;&gt;&lt;span class=&quot;pl-s&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px&quot;&gt;application/pkcs7-mime&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=60;strokeWidth=2;" vertex="1" parent="GjZFOYOXoIjYT3Brqjyf-1">
                     <mxGeometry x="810" y="730.5" width="180" height="30.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="GjZFOYOXoIjYT3Brqjyf-44" value="TaskERezeptUpdater" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="GjZFOYOXoIjYT3Brqjyf-1">
+                <mxCell id="GjZFOYOXoIjYT3Brqjyf-44" value="updateERezeptTask" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="GjZFOYOXoIjYT3Brqjyf-1">
                     <mxGeometry x="840" y="785" width="120" height="35" as="geometry"/>
                 </mxCell>
                 <mxCell id="GjZFOYOXoIjYT3Brqjyf-47" value="" style="shape=useedge;vertical=true;endArrow=none;useSignPosition=left;useSignDirection=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="GjZFOYOXoIjYT3Brqjyf-1" source="GjZFOYOXoIjYT3Brqjyf-41" target="GjZFOYOXoIjYT3Brqjyf-44">
