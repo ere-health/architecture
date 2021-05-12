@@ -21,6 +21,16 @@ Mission: Develop an open source solution that is commercially supported together
 
 The diagram above shows the backend application which is a single quarkus jar communicating via a WebSocket with the frontend and via the SOAP interface with the connector (The IdP is missing on the picture)
 
+## Backend - Internal structure
+
+![](img/internal-structure.png)
+
+The diagram above shows the internal structure of the whole systems. There are 3 ways to get data in:
+
+ # [Using the VOS interface of the PVS systems](https://www.kbv.de/media/sp/KBV_ITA_VGEX_SST_Festlegung_VOS_V1.10.010.pdf)
+ # Putting a PDF file in a folder where is it automatically detected
+ # Directly printing into the system using an IPP printer interface
+
 ## Backend - Document Service
 
 ![](img/document-service.png)
