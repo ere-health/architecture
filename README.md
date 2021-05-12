@@ -27,9 +27,9 @@ The diagram above shows the backend application which is a single quarkus jar co
 
 The diagram above shows the internal structure of the whole systems. There are 3 ways to get data in:
 
- # [Using the VOS interface of the PVS systems](https://www.kbv.de/media/sp/KBV_ITA_VGEX_SST_Festlegung_VOS_V1.10.010.pdf)
- # Putting a PDF file in a folder where is it automatically detected
- # Directly printing into the system using an IPP printer interface
+ 1. [Using the VOS interface of the PVS systems](https://www.kbv.de/media/sp/KBV_ITA_VGEX_SST_Festlegung_VOS_V1.10.010.pdf)
+ 2. Putting a PDF file in a folder where is it automatically detected
+ 3. Directly printing into the system using an IPP printer interface
 
 ## Backend - Document Service
 
