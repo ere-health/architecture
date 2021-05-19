@@ -89,7 +89,7 @@ Here is a german YouTube video that shows how this works:
 
 The diagram above shows the deployment options. In the first generation we are planning to deploy the ere.health software as normal installable service on the doctors personal computer.
 
-The second generation is fully hostable in a specially secured data center with a site-2-site VPN connection. This makes it possible to also sign prescriptions from anywhere in the world as long as the card reader is connected somewhere to the internet and the Komforsignatur is enabled.
+The second generation is fully hostable in a specially secured data center with a site-2-site VPN connection. This makes it possible to also sign prescriptions from anywhere in the world as long as the card reader is connected somewhere to the internet and the Komfortsignatur is enabled.
 
 # SVG Extractor
 
