@@ -15,6 +15,12 @@ Mission: Develop an open source solution that is commercially supported together
  3. It should be compatible with all systems that can print a [Muster 16 Formular](https://www.kbv.de/html/27760.php)
  4. It should be done at 2021-07-01
 
+# E-Rezept process
+
+![](img/ere-health-e-rezept-process.png)
+
+The image above shows the technical process of how the different components are working together and how the ere-health solution creates an e prescription. It uses the BPMN notation.
+
 # Backend
 
 ![](img/ere-health-jar.png)
