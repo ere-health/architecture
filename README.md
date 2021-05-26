@@ -66,6 +66,11 @@ The image above shows how the ere.health system implements the vau channel based
  * https://github.com/gematik/ref-ePA-vauchannel
  * https://github.com/resteasy/Resteasy/tree/main/resteasy-client/src/main/java/org/jboss/resteasy/client/jaxrs/engines
 
+## Telematik API
+
+![](img/api-telematik.png)
+
+The image above shows how the JAX-WS classes are generated from the official [gematik api-telematik](https://github.com/gematik/api-telematik) code. Which is [forked by ere-health](https://github.com/ere-health/api-telematik) and a pom.xml is added.
 
 # Frontend
 
