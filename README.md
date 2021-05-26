@@ -78,6 +78,12 @@ The image above shows the communication with titus.
 
 The image above shows how the JAX-WS classes are generated from the official [gematik api-telematik](https://github.com/gematik/api-telematik) code. Which is [forked by ere-health](https://github.com/ere-health/api-telematik) and a pom.xml is added.
 
+## Card terminal
+
+![](img/card-terminal.png)
+
+The image above shows how the certificates are saved on the different cards. 
+
 # Frontend
 
 ![](img/bce-design-frontend.png)

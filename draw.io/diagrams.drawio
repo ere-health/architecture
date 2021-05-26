@@ -1,4 +1,39 @@
 <mxfile>
+    <diagram id="NcTz6CQLaP30UpuBj80z" name="card-terminal">
+        <mxGraphModel dx="847" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="pLhKuePY0P1nXjAg7yZM-0"/>
+                <mxCell id="pLhKuePY0P1nXjAg7yZM-1" parent="pLhKuePY0P1nXjAg7yZM-0"/>
+                <mxCell id="pLhKuePY0P1nXjAg7yZM-2" value="Connector" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="pLhKuePY0P1nXjAg7yZM-1">
+                    <mxGeometry x="470" y="300" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="pLhKuePY0P1nXjAg7yZM-3" value="Card Terminal" style="shape=agent;offsetSize=8;strokeWidth=2;verticalAlign=top;" vertex="1" parent="pLhKuePY0P1nXjAg7yZM-1">
+                    <mxGeometry x="295" y="270" width="110" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="pLhKuePY0P1nXjAg7yZM-4" value="SMC-B" style="rounded=1;whiteSpace=wrap;html=1;arcSize=29;strokeWidth=2;verticalAlign=top;" vertex="1" parent="pLhKuePY0P1nXjAg7yZM-1">
+                    <mxGeometry x="305" y="300" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="pLhKuePY0P1nXjAg7yZM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pLhKuePY0P1nXjAg7yZM-1" source="pLhKuePY0P1nXjAg7yZM-5" target="pLhKuePY0P1nXjAg7yZM-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pLhKuePY0P1nXjAg7yZM-5" value="eHBA" style="rounded=1;whiteSpace=wrap;html=1;arcSize=41;strokeWidth=2;verticalAlign=top;" vertex="1" parent="pLhKuePY0P1nXjAg7yZM-1">
+                    <mxGeometry x="305" y="170" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="pLhKuePY0P1nXjAg7yZM-7" value="Certificate" style="rounded=1;whiteSpace=wrap;html=1;arcSize=60;strokeWidth=2;" vertex="1" parent="pLhKuePY0P1nXjAg7yZM-1">
+                    <mxGeometry x="310" y="330" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pLhKuePY0P1nXjAg7yZM-9" value="Certificate" style="rounded=1;whiteSpace=wrap;html=1;arcSize=60;strokeWidth=2;" vertex="1" parent="pLhKuePY0P1nXjAg7yZM-1">
+                    <mxGeometry x="310" y="200" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="pLhKuePY0P1nXjAg7yZM-10" value="" style="shape=useedge;endArrow=none;useSignPosition=up;useSignDirection=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pLhKuePY0P1nXjAg7yZM-1" source="pLhKuePY0P1nXjAg7yZM-3" target="pLhKuePY0P1nXjAg7yZM-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="390" y="360" as="sourcePoint"/>
+                        <mxPoint x="550" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
     <diagram id="XczOvEmUcNSaFJBqVBeQ" name="titus">
         <mxGraphModel dx="847" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
