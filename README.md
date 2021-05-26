@@ -66,6 +66,12 @@ The image above shows how the ere.health system implements the vau channel based
  * https://github.com/gematik/ref-ePA-vauchannel
  * https://github.com/resteasy/Resteasy/tree/main/resteasy-client/src/main/java/org/jboss/resteasy/client/jaxrs/engines
 
+ ## E-Rezept Workflow communication with titus
+
+![](img/titus.png)
+
+The image above shows the communication with titus.
+
 ## Telematik API
 
 ![](img/api-telematik.png)
