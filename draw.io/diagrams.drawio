@@ -23,7 +23,7 @@
                     <mxGeometry x="730" y="620" width="210" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="pByI9f7R5g5FIzFFvr1f-1" value="Bundle" style="rounded=1;whiteSpace=wrap;html=1;arcSize=60;strokeWidth=2;" vertex="1" parent="wkrNieHqSo5nmcUOd6mX-1">
-                    <mxGeometry x="390" y="680" width="90" height="40" as="geometry"/>
+                    <mxGeometry x="390" y="680" width="90" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="pByI9f7R5g5FIzFFvr1f-3" value="" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="wkrNieHqSo5nmcUOd6mX-1">
                     <mxGeometry x="450" y="460" width="130" height="140" as="geometry"/>
@@ -44,7 +44,7 @@
                     <mxGeometry x="490" y="803" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="pByI9f7R5g5FIzFFvr1f-9" value="BundleModel&#10;(JSONModel)" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="wkrNieHqSo5nmcUOd6mX-1">
-                    <mxGeometry x="390" y="740" width="175" height="39" as="geometry"/>
+                    <mxGeometry x="390" y="720" width="175" height="39" as="geometry"/>
                 </mxCell>
                 <mxCell id="pByI9f7R5g5FIzFFvr1f-12" value="" style="shape=useedge;vertical=true;endArrow=none;useSignPosition=left;useSignDirection=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="wkrNieHqSo5nmcUOd6mX-1" source="pByI9f7R5g5FIzFFvr1f-6" target="wkrNieHqSo5nmcUOd6mX-5">
                     <mxGeometry height="160" relative="1" as="geometry">
@@ -96,6 +96,12 @@
                 </mxCell>
                 <mxCell id="pByI9f7R5g5FIzFFvr1f-30" value="VOSBundleReceiver" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="wkrNieHqSo5nmcUOd6mX-1">
                     <mxGeometry x="120" y="806.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="pByI9f7R5g5FIzFFvr1f-32" value="" style="shape=useedge;vertical=true;endArrow=none;useSignPosition=left;useSignDirection=none;exitX=0.18;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wkrNieHqSo5nmcUOd6mX-1" source="pByI9f7R5g5FIzFFvr1f-5" target="pByI9f7R5g5FIzFFvr1f-9">
+                    <mxGeometry height="160" relative="1" as="geometry">
+                        <mxPoint x="530" y="790" as="sourcePoint"/>
+                        <mxPoint x="530" y="760" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
