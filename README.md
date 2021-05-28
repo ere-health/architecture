@@ -63,7 +63,6 @@ The image above shows how the E-Rezept service internally works.
 
 The image above shows how the ere.health system implements the vau channel based on:
 
- * https://github.com/gematik/ref-ePA-vauchannel
  * https://github.com/resteasy/Resteasy/tree/main/resteasy-client/src/main/java/org/jboss/resteasy/client/jaxrs/engines
 
  ## E-Rezept Workflow communication with titus
