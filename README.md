@@ -99,6 +99,16 @@ The diagram above shows how to distribute the different components to [BElement]
 
 The image above shows a screenshot of the frontend.
 
+## VOS Frontend
+
+![](img/vos-architecture.png)
+
+The diagram above shows how the VOS interface defined by the KBV is integrated into the ere.health front end:
+
+ * [FESTLEGUNG DER SCHNITTSTELLEN NACH § 291D ABSATZ 1A SATZ 1 NR. 1 SGB V](https://www.kbv.de/media/sp/KBV_ITA_VGEX_SST_Festlegung_VOS_V1.10.010.pdf)
+ * [Simplifier Verordnungssoftware-Schnittstelle Gemäß § 291d Absatz 1a Satz 1 Nummer 1 SGB V](https://simplifier.net/packages/kbv.ita.vos/1.10.010)
+
+
 # Video
 
 Here is a german YouTube video that shows how this works: 
