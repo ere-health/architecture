@@ -51,6 +51,15 @@ Above the document service is shown. This will in the end generate the following
 
 The image above shows how the Gematik E-Rezept app scans a data matrix code produced by the ere.health document service.
 
+## E-Rezept Fachdienst
+
+![](img/erezept-fachdienst.png)
+
+The image above shows the two steps to create an e-prescription in the Fachdienst:
+
+1. Create a Task using the $create method
+2. Attach a signed KBV Bundle to the task using the $activate method
+
 ## E-Rezept Workflow
 
 ![](img/e-rezept-workflow.png)
@@ -82,6 +91,12 @@ The image above shows how the JAX-WS classes are generated from the official [ge
 ![](img/card-terminal.png)
 
 The image above shows how the certificates are saved on the different cards. 
+
+## IdP
+
+![](img/idp.png)
+
+The image above shows how the IdP dance works. Details here: https://github.com/gematik/api-erp/blob/master/docs/authentisieren.adoc#ablauf-des-authentifizierungsprotokolls 
 
 # Frontend
 
