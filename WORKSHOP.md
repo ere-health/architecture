@@ -3,8 +3,8 @@
 The Incentergy GmbH is offering an E-Prescription workshop for practice system vendors this workshops mainly covers 2 topics:
 
  1. How does the general E-Prescription systems works?
- 1.1. Identity Provider (OpenID Connect)
- 1.2. E-Rezept-Fachdienst (FHIR)
+     1. Identity Provider (OpenID Connect)
+     2. E-Rezept-Fachdienst (FHIR)
  2. How is it possible to implement these features into an own software e.g. ere.health?
 
 # Identity Provider
