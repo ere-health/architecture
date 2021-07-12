@@ -39,6 +39,12 @@ The E-Rezept documents are based on FHIR v4 Bundles shown here: https://simplifi
 
 In this part we will look in detail in these structures how to create them using JSON or XML using open source technology like HAPI FHIR server and how to validate this data.
 
+# VAU Implementation
+
+![](img/vau-channel.png)
+
+In this part we will take a look into the VAU (vertrauenswürdige Ausführungsumgebung).
+
 # Generation of PDF with FOP
 
 ![](img/document-service.png)
