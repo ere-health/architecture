@@ -1,5 +1,5 @@
 <mxfile host="65bd71144e">
-    <diagram id="gSymPjXCImfbxGUJLEBA" name="Seite-23">
+    <diagram id="gSymPjXCImfbxGUJLEBA" name="multi-connector-management">
         <mxGraphModel dx="2350" dy="1158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="ussUxGsqyJj1sV_OzVSm-0"/>
@@ -19,8 +19,8 @@
                 <mxCell id="ussUxGsqyJj1sV_OzVSm-6" value="ere-ps-app" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="ussUxGsqyJj1sV_OzVSm-1">
                     <mxGeometry x="50" y="630" width="640" height="270" as="geometry"/>
                 </mxCell>
-                <mxCell id="ussUxGsqyJj1sV_OzVSm-7" value="MultiConnector&#10;Services&#10;Provider" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="ussUxGsqyJj1sV_OzVSm-1">
-                    <mxGeometry x="340" y="795" width="90" height="60" as="geometry"/>
+                <mxCell id="ussUxGsqyJj1sV_OzVSm-7" value="MultiConnector&#10;Services Provider" style="shape=agent;offsetSize=8;strokeWidth=2;verticalAlign=top;" vertex="1" parent="ussUxGsqyJj1sV_OzVSm-1">
+                    <mxGeometry x="280" y="795" width="150" height="95" as="geometry"/>
                 </mxCell>
                 <mxCell id="ussUxGsqyJj1sV_OzVSm-10" value="ERezeptWorkflowService" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="ussUxGsqyJj1sV_OzVSm-1">
                     <mxGeometry x="280" y="650" width="150" height="60" as="geometry"/>
@@ -64,7 +64,7 @@
                 <mxCell id="ussUxGsqyJj1sV_OzVSm-20" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=21;strokeWidth=2;dashed=1;" vertex="1" parent="ussUxGsqyJj1sV_OzVSm-1">
                     <mxGeometry x="460" y="650" width="220" height="230" as="geometry"/>
                 </mxCell>
-                <mxCell id="ussUxGsqyJj1sV_OzVSm-21" value="" style="shape=useedge;vertical=true;endArrow=none;useSignPosition=left;useSignDirection=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="ussUxGsqyJj1sV_OzVSm-1" source="ussUxGsqyJj1sV_OzVSm-7" target="ussUxGsqyJj1sV_OzVSm-10">
+                <mxCell id="ussUxGsqyJj1sV_OzVSm-21" value="" style="shape=useedge;vertical=true;endArrow=none;useSignPosition=left;useSignDirection=none;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="ussUxGsqyJj1sV_OzVSm-1" source="ussUxGsqyJj1sV_OzVSm-7" target="ussUxGsqyJj1sV_OzVSm-10">
                     <mxGeometry height="160" relative="1" as="geometry">
                         <mxPoint x="400" y="900" as="sourcePoint"/>
                         <mxPoint x="400" y="740" as="targetPoint"/>
@@ -142,7 +142,7 @@
                         <mxPoint x="790" y="680" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="ussUxGsqyJj1sV_OzVSm-46" value="" style="shape=updateedge;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="ussUxGsqyJj1sV_OzVSm-1" source="ussUxGsqyJj1sV_OzVSm-7" target="ussUxGsqyJj1sV_OzVSm-20">
+                <mxCell id="ussUxGsqyJj1sV_OzVSm-46" value="" style="shape=updateedge;endArrow=none;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="ussUxGsqyJj1sV_OzVSm-1" source="ussUxGsqyJj1sV_OzVSm-7" target="ussUxGsqyJj1sV_OzVSm-20">
                     <mxGeometry width="80" height="30" relative="1" as="geometry">
                         <mxPoint x="410" y="835" as="sourcePoint"/>
                         <mxPoint x="490" y="835" as="targetPoint"/>
@@ -177,6 +177,9 @@
                 </mxCell>
                 <mxCell id="ussUxGsqyJj1sV_OzVSm-54" value="Annotate all calls with the user config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ussUxGsqyJj1sV_OzVSm-1">
                     <mxGeometry x="-40" y="630" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="ussUxGsqyJj1sV_OzVSm-55" value="DefaultConnector&#10;ServicesProvider" style="shape=agent;offsetSize=8;strokeWidth=2;verticalAlign=top;" vertex="1" parent="ussUxGsqyJj1sV_OzVSm-1">
+                    <mxGeometry x="290" y="840" width="130" height="42.5" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
