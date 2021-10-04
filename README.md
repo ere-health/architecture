@@ -92,6 +92,12 @@ The image above shows how the JAX-WS classes are generated from the official [ge
 
 The image above shows how the certificates are saved on the different cards. 
 
+## Multi Connector Management
+
+![][img/multi-connector-management.png]
+
+The image above shows how the solution is managing multiple connectors.
+
 ## IdP
 
 ![](img/idp.png)
