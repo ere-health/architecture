@@ -94,7 +94,7 @@ The image above shows how the certificates are saved on the different cards.
 
 ## Multi Connector Management
 
-![][img/multi-connector-management.png]
+![](img/multi-connector-management.png)
 
 The image above shows how the solution is managing multiple connectors.
 
