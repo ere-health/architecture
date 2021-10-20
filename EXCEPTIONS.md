@@ -28,9 +28,11 @@ Exceptions added to the message ERezeptWithDocuments:
 | ERezeptWorkflowException - ConnectorCardsException | ConnectorCardsService.java | Is thrown when something goes wrong with the card selection or the PIN entering e.g. no active SMC or eHBA found | 
 | ERezeptWorkflowException - FaultMessage | ERezeptWorkflowService.java | Is thrown when something with the signing goes wrong e.g. job number was already used or there is already an elevated security session on the card |
 
-Currently Known Fault Messages:
+Some example fault messages are:
 
  1. Timeout bei der PIN-Eingabe
  2. Der Komfortsignatur-Zähler hat den Wert SAK_COMFORT_SIGNATURE_MAX erreicht;HBA-78
  3. Zugriffsbedingungen nicht erfüllt
 
+Full list of error cases can be found here:
+ * https://fachportal.gematik.de/fachportal-import/files/gemSpec_Kon_V5.14.0.pdf
