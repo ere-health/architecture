@@ -61,7 +61,7 @@
                 <mxCell id="iBGFMMyzwkYIr6sZxgUB-26" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iBGFMMyzwkYIr6sZxgUB-1" source="iBGFMMyzwkYIr6sZxgUB-18" target="iBGFMMyzwkYIr6sZxgUB-25">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="iBGFMMyzwkYIr6sZxgUB-18" value="IFAP Medicenter" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="iBGFMMyzwkYIr6sZxgUB-1">
+                <mxCell id="iBGFMMyzwkYIr6sZxgUB-18" value="Verordnungssystem" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="iBGFMMyzwkYIr6sZxgUB-1">
                     <mxGeometry x="266" y="560" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="iBGFMMyzwkYIr6sZxgUB-20" value="PVS" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="iBGFMMyzwkYIr6sZxgUB-1">
