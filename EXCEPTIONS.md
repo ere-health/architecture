@@ -71,8 +71,8 @@ The english text is a translation by us it won't be send by the connector.
 
 Examples for our response message can be found here:
 
- 1. [Timeout during PIN entering](ERezeptWithDocuments-Exception-4043.json)
- 2. [Abbruch durch den Benutzer](ERezeptWithDocuments-Exception-4049.json)
- 3. [Card is used in another session exclusivly](ERezeptWithDocuments-Exception-4093.json)
+ 1. [Timeout during PIN entering](https://github.com/ere-health/ere-ps-app/blob/main/src/test/resources/websocket-messages/ERezeptWithDocuments-Exception-4043.json)
+ 2. [Abbruch durch den Benutzer](https://github.com/ere-health/ere-ps-app/blob/main/src/test/resources/websocket-messages/ERezeptWithDocuments-Exception-4049.json)
+ 3. [Card is used in another session exclusivly](https://github.com/ere-health/ere-ps-app/blob/main/src/test/resources/websocket-messages/ERezeptWithDocuments-Exception-4093.json)
 
 Further please read the following document [ERezeptWithDocuments-Exception-4093.json](ERezeptWithDocuments-Exception-4093.json)
