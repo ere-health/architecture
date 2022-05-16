@@ -1,0 +1,67 @@
+<mxfile host="65bd71144e">
+    <diagram id="BhkXVal1uZRFJYdFtVI2" name="Seite-1">
+        <mxGraphModel dx="1357" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="go.ere.health" style="shape=agent;offsetSize=8;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="209" y="310" width="561" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="ere-ps-app" style="shape=agent;offsetSize=8;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="375" width="530" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="SSHService" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="420" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="undertow" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="420" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="560" as="sourcePoint"/>
+                        <mxPoint x="770" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="Physician Intranet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="570" width="131" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Computer" style="shape=agent;offsetSize=8;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="620" width="450" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Browser" style="shape=agent;offsetSize=8;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="650" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="ere frontend" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="615" y="670" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="shape=useedge;vertical=true;endArrow=none;useSignPosition=left;useSignDirection=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="12" target="5">
+                    <mxGeometry height="160" relative="1" as="geometry">
+                        <mxPoint x="680" y="720" as="sourcePoint"/>
+                        <mxPoint x="680" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Websocket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="570" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Konnektor" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="635" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="ssh&#10;(Port Forwarding)" style="shape=agent;offsetSize=8;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="645" width="100" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="shape=useedge;vertical=true;endArrow=none;useSignPosition=left;useSignDirection=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="16" target="4">
+                    <mxGeometry height="160" relative="1" as="geometry">
+                        <mxPoint x="340" y="680" as="sourcePoint"/>
+                        <mxPoint x="340" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="" style="shape=useedge;endArrow=none;useSignPosition=up;useSignDirection=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="16">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="210" y="680" as="sourcePoint"/>
+                        <mxPoint x="370" y="680" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
